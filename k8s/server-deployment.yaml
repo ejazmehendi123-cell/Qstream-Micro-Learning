@@ -1,0 +1,61 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: qstream-server
+  namespace: qstream-ai
+  labels:
+    app: qstream-server
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: qstream-server
+  template:
+    metadata:
+      labels:
+        app: qstream-server
+    spec:
+      containers:
+        - name: server
+          image: qstream-ai/server:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 5000
+          envFrom:
+            - configMapRef:
+                name: qstream-config
+            - secretRef:
+                name: qstream-secrets
+          resources:
+            requests:
+              cpu: "200m"
+              memory: "256Mi"
+            limits:
+              cpu: "1000m"
+              memory: "512Mi"
+          livenessProbe:
+            httpGet:
+              path: /api/health
+              port: 5000
+            initialDelaySeconds: 15
+            periodSeconds: 20
+          readinessProbe:
+            httpGet:
+              path: /api/health
+              port: 5000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: qstream-server-service
+  namespace: qstream-ai
+spec:
+  type: ClusterIP
+  ports:
+    - port: 5000
+      targetPort: 5000
+      protocol: TCP
+  selector:
+    app: qstream-server
