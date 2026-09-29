@@ -25,9 +25,7 @@
 10. **Zero Broken Routes & Strict Validation**: Guaranteed prevention of `/quiz/undefined` or invalid identifiers with HTTP 400 guards.
 
 ---
-
 ## 🏗️ Architecture & Technology Stack
-
 ```
                                   +---------------------------------------+
                                   |     React + Vite Single Page App      |
