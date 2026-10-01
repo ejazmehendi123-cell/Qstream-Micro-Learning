@@ -51,7 +51,7 @@
 * **Frontend**: React 18, Vite 6, Tailwind CSS, Lucide React, Recharts, React Router DOM v6, Axios, Supabase Client.
 * **Backend**: Node.js, Express.js, Helmet, CORS, Morgan, Express-Rate-Limit, Zod, UUID, Crypto.
 * **Database & Auth**: Supabase PostgreSQL (Managed Cloud), Row Level Security (RLS), Supabase Auth.
-* **AI Engine**: OpenAI API (`gpt-4o-mini`) with automatic fallback to pre-seeded 540-question bank and heuristic tutor.
+* **AI Engine**: OpenAI API (`gpt-4o-mini`) with the automatic fallback to pre-seeded 540-question bank and heuristic tutor.
 * **DevOps**: Docker, Docker Compose, Kubernetes manifests (`k8s/`).
 
 ---
