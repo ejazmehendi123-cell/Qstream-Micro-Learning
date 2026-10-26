@@ -113,7 +113,7 @@ qstream-ai/
 
 ---
 
-## ⚡ Quick Start Guide (Local Development)
+## ⚡ Quick Start Guide
 
 ### 1. Prerequisites
 - Node.js 18+ or 20+ installed (`node -v`)
