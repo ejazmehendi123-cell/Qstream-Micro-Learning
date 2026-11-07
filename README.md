@@ -7,7 +7,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-v3.4-38BDF8.svg)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> **Qstream AI** is an enterprise-grade, full-stack microlearning platform combining personalized curriculum paths, dynamic AI-generated assessments, SuperMemo-2 spaced repetition revision queues, context-aware AI tutoring, and cryptographically verifiable specialization certificates.
+> **Qstream AI** is an enterprise-grade, full-stack microlearning platform combining personalized curriculum paths, dynamic AI-generated assessments, SuperMemo-2 spaced repetition revision queues, context-aware AI tutoring, and cryptographically specialization certificates.
 
 ---
 
