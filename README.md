@@ -131,7 +131,7 @@ npm run install:all
 ```
 
 ### 3. Environment Configuration
-Create a `.env` file in the root directory (or copy from `.env.example`):
+Create a `.env` file in root directory (or copy from `.env.example`):
 ```bash
 cp .env.example .env
 ```
