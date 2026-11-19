@@ -21,7 +21,7 @@
 6. **24/7 Contextual AI Tutor**: Mentors learners directly on code snippets, explains architectural tradeoffs, and conducts on-demand mini-quizzes without exposing API keys.
 7. **Verifiable Certificates of Mastery**: Tamper-proof credentials issued upon 100% path completion, featuring unique verification IDs (`QSTRM-2026-XXXX`) and public verification URLs (`/verify/:certificateId`).
 8. **Interactive Recharts Analytics**: Weekly accuracy trends, daily study time, mastery radar vs industry benchmarks, and topic performance gauges.
-9. **Global Leaderboard & Notifications**: Gamified XP rankings, learning streak tracking, and automated revision reminder alerts.
+9. **Global Leaderboard & Notifications**: Gamified XP rankings, learning streak tracking and automated revision reminder alerts.
 10. **Zero Broken Routes & Strict Validation**: Guaranteed prevention of `/quiz/undefined` or invalid identifiers with HTTP 400 guards.
 
 ---
