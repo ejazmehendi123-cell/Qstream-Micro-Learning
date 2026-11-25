@@ -13,7 +13,7 @@
 
 ## 🌟 Key Features
 
-1. **27 Production-Ready Learning Paths**: Covering Full Stack, MERN, Python, DSA, Java Placement, Generative AI, Cloud, AWS, DevOps, Docker & Kubernetes, System Design, and Soft Skills.
+1. **27 Production-Ready Learning Paths**: Covering Full Stack, MERN, Python, DSA, Java Placement, Generative AI, Cloud, AWS, DevOps, Docker & Kubernetes, System Design and Soft Skills.
 2. **108 Micro-Modules & 54+ Detailed 12-Section Notes**: Structured engineering notes featuring syntax, production examples, common anti-patterns, senior interview questions, and quick revision takeaways.
 3. **Dynamic AI Quiz Generation**: Server-side OpenAI API integration (`gpt-4o-mini`) with schema validation, retry mechanism, 540-question internal fallback bank, and SHA-256 deduplication hashing.
 4. **Adaptive Difficulty & Skill-Gap Analysis**: Calibrates questions to user retention curves (0–40% Easy, 40–70% Medium, 70–85% Hard, 85–100% Advanced).
